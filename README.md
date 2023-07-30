@@ -51,12 +51,6 @@
 * `git commit -m "first commit"` - Команда позволяет "_зафиксировать_" изменения.
 * `git branch -M main` - Команда определяет текущую ветку.
 * `git remote add origin git@github.com:Newwell96/git-helper.git` - Команда связывает локальный и удаленные репозитории.
-* `git push -u origin main` - Команда отправляет файлы и зафиксированные изменения на удаленный репозиторий.
-
-
-# push an existing repository from the command line
-
-
-git remote add origin git@github.com:Newwell96/git-helper.git
-git branch -M main
-git push -u origin main
+* `git remote -v` - Команда для проверки связи репозиториев.
+* `git push -u origin main` - Команда отправляет файлы и зафиксированные изменения на удаленный репозиторий(для первого раза).
+* `git push` - для дальнейшей работы.
